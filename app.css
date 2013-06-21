@@ -9,6 +9,10 @@
 	font-size: 20px;
 }
 
+.tweet {
+	float: right;
+}
+
 .donate-button {
 	text-align: center;
 	margin: 0 auto;
@@ -16,4 +20,12 @@
 }
 .donate-button span {
 	font-size: 12px;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
